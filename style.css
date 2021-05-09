@@ -1,5 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  background-color: black;
+  color: #fff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: monospace;
+}
+
+.main-title {
+  font-family: "Fascinate", cursive;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#lengths-control {
+  display: flex;
+  justify-content: space-around;
+}
+
+#length-control {
+  display: inline-block;
+}
+#session-label,
+#break-label {
+  margin: 0 1em;
+  font-size: 1.5em;
+}
+.btn-level {
+  display: inline-block;
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+#session-length , #break-length{
+    font-size: 15px;
+}
+
+.author {
+  font-family: "Sacramento", cursive;
 }

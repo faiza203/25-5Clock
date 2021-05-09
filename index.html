@@ -16,25 +16,27 @@
       <div id="app">
         <div data-reactroot="">
           <div class="main-title">25 + 5 Clock</div>
-          <div class="length-control">
-            <div id="break-label">Break Length</div>
-            <button class="btn-level" id="break-decrement" value="-">
-              <i class="fa fa-arrow-down fa-2x"></i>
-            </button>
-            <div class="btn-level" id="break-length">5</div>
-            <button class="btn-level" id="break-increment" value="+">
-              <i class="fa fa-arrow-up fa-2x"></i>
-            </button>
-          </div>
-          <div class="length-control">
-            <div id="session-label">Session Length</div>
-            <button class="btn-level" id="session-decrement" value="-">
-              <i class="fa fa-arrow-down fa-2x"></i>
-            </button>
-            <div class="btn-level" id="session-length">25</div>
-            <button class="btn-level" id="session-increment" value="+">
-              <i class="fa fa-arrow-up fa-2x"></i>
-            </button>
+          <div id="lengths-control">
+            <div class="length-control">
+              <div id="break-label">Break Length</div>
+              <button class="btn-level" id="break-decrement" value="-">
+                <i class="fa fa-arrow-down fa-2x"></i>
+              </button>
+              <div class="btn-level" id="break-length">5</div>
+              <button class="btn-level" id="break-increment" value="+">
+                <i class="fa fa-arrow-up fa-2x"></i>
+              </button>
+            </div>
+            <div class="length-control">
+              <div id="session-label">Session Length</div>
+              <button class="btn-level" id="session-decrement" value="-">
+                <i class="fa fa-arrow-down fa-2x"></i>
+              </button>
+              <div class="btn-level" id="session-length">25</div>
+              <button class="btn-level" id="session-increment" value="+">
+                <i class="fa fa-arrow-up fa-2x"></i>
+              </button>
+            </div>
           </div>
           <div class="timer" style="color: white">
             <div class="timer-wrapper">
@@ -44,10 +46,8 @@
           </div>
           <div class="timer-control">
             <button id="start_stop">
-              <i class="fa fa-play fa-2x"></i
-              >
-              <i class="fa fa-pause fa-2x"></i>
-              </button
+              <i class="fa fa-play fa-2x"></i>
+              <i class="fa fa-pause fa-2x"></i></button
             ><button id="reset"><i class="fa fa-refresh fa-2x"></i></button>
           </div>
           <div class="author">
