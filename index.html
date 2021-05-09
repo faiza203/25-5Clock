@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Clock</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <div id="app">
+        <div data-reactroot="">
+          <div class="main-title">25 + 5 Clock</div>
+          <div class="length-control">
+            <div id="break-label">Break Length</div>
+            <button class="btn-level" id="break-decrement" value="-">
+              <i class="fa fa-arrow-down fa-2x"></i>
+            </button>
+            <div class="btn-level" id="break-length">5</div>
+            <button class="btn-level" id="break-increment" value="+">
+              <i class="fa fa-arrow-up fa-2x"></i>
+            </button>
+          </div>
+          <div class="length-control">
+            <div id="session-label">Session Length</div>
+            <button class="btn-level" id="session-decrement" value="-">
+              <i class="fa fa-arrow-down fa-2x"></i>
+            </button>
+            <div class="btn-level" id="session-length">25</div>
+            <button class="btn-level" id="session-increment" value="+">
+              <i class="fa fa-arrow-up fa-2x"></i>
+            </button>
+          </div>
+          <div class="timer" style="color: white">
+            <div class="timer-wrapper">
+              <div id="timer-label">Session</div>
+              <div id="time-left">19:01</div>
+            </div>
+          </div>
+          <div class="timer-control">
+            <button id="start_stop">
+              <i class="fa fa-play fa-2x"></i
+              >
+              <i class="fa fa-pause fa-2x"></i>
+              </button
+            ><button id="reset"><i class="fa fa-refresh fa-2x"></i></button>
+          </div>
+          <div class="author">
+            <!-- react-text: 28 -->
+            <!-- /react-text --><!-- react-text: 29 -->Designed and Coded by
+            <!-- /react-text --><br /><a
+              href="https://goo.gl/6NNLMG"
+              target="_blank"
+              >Peter Weinberg</a
+            >
+          </div>
+          <audio
+            id="beep"
+            preload="auto"
+            src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+          ></audio>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
