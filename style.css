@@ -15,6 +15,12 @@ body {
   font-family: monospace;
 }
 
+#base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-title {
   font-family: "Fascinate", cursive;
   font-size: 3em;
@@ -24,6 +30,7 @@ body {
 #lengths-control {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 1em;
 }
 
 #length-control {
@@ -41,10 +48,28 @@ body {
   border: none;
 }
 
-#session-length , #break-length{
-    font-size: 15px;
+#session-length,
+#break-length {
+  font-size: 1.3em;
+}
+
+.timer {
+  border: 2px solid;
+  height: 10em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 1em 0;
 }
 
 .author {
   font-family: "Sacramento", cursive;
+  font-size: 2em;
+}
+
+.author a {
+  text-decoration: none;
+  color: #fff;
 }
