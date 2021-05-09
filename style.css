@@ -41,7 +41,7 @@ body {
   margin: 0 1em;
   font-size: 1.5em;
 }
-.btn-level {
+.btn-level , #reset , #start_stop{
   display: inline-block;
   color: #fff;
   background: transparent;
@@ -64,9 +64,13 @@ body {
   margin: 1em 0;
 }
 
+.timer-control{
+    margin-bottom: 1em;
+}
+
 .author {
   font-family: "Sacramento", cursive;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .author a {
